@@ -1,0 +1,14 @@
+---
+layout: default
+title: Personal Finance Posts
+---
+<h1>Personal Finance Posts</h1>
+
+<ul>
+    {% for finance_post in site.personal_finance_posts %}
+    <li>
+        <h2><a href="{{ finance_post.url }}">{{ finance_post.title }}</a></h2>
+        <p>{{ author.content | markdownify }}</p>
+    </li>
+    {% endfor %}
+</ul>

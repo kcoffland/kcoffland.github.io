@@ -1,1 +1,18 @@
 theme: jekyll-theme-slate
+
+collections:
+  personal_finance_posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "personal_finance_posts"
+    values:
+      layout: "post"
+      author: "Kyle Coffland"

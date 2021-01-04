@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Personal Finance
+  link: /personal_finance.html

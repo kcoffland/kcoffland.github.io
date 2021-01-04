@@ -1,0 +1,5 @@
+# Resoures for local building
+Gemfile
+Gemfile.lock
+*.sh
+_site/
